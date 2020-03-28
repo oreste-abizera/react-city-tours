@@ -1,0 +1,26 @@
+.navbar{
+    background: black;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-align: center;
+    padding: 1rem;
+    min-height: 3rem;
+}
+.navbar img{
+    padding-top: 0.1rem;
+}
+.nav-links{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 1.4rem;
+}
+.nav-link{
+    list-style-type: none;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: #82b340 !important;
+}
